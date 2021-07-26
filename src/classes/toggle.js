@@ -9,4 +9,4 @@ module.exports = class Toggle {
     this.tasks[id].completed = !this.tasks[id].completed;
     return this.tasks;
   }
-}
+};

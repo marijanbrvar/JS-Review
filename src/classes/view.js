@@ -112,4 +112,4 @@ module.exports = class View {
     this.clear = document.querySelector('.todo-clear');
     this.clear.addEventListener('click', () => handler());
   }
-}
+};

@@ -60,4 +60,4 @@ module.exports = class Task {
     this.tasks = this.tasks.filter((task) => task.completed !== true);
     this.commit(this.tasks);
   }
-}
+};
